@@ -1,5 +1,5 @@
-YouTube-ReVanced-Extended: 20.12.46
-downloaded from: [APKMirror - YouTube-ReVanced-Extended](https://www.apkmirror.com/apk/google-inc/youtube/youtube-20-12-46-release/youtube-20-12-46-2-android-apk-download/)  
+Music-ReVanced-Extended: 8.12.54
+downloaded from: [APKMirror - Music-ReVanced-Extended](https://www.apkmirror.com/apk/google-inc/youtube-music/youtube-music-8-12-54-release/youtube-music-8-12-54-android-apk-download/)  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
