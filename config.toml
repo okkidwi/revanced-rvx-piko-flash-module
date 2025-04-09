@@ -41,7 +41,7 @@ included-patches = "'MaterialYou' 'Hide Shorts dimming' 'Custom header for YouTu
 patcher-args = "--legacy-options options.json"
 
 [YouTube]
-enabled = true
+enabled = false
 build-mode = "both"
 module-prop-name = "youtube-E85"
 patches-source = "E85Addict/revanced-patches"
@@ -54,7 +54,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
-enabled = true
+enabled = false
 build-mode = "both"
 module-prop-name = "music-E85"
 arch = "arm64-v8a"
@@ -75,34 +75,6 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
-# dont build on gh actions (https://github.com/j-hc/revanced-magisk-module/issues/554)
-[Music-Extended]
-enabled = true
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-module-prop-name = "music-E85"
-arch = "arm64-v8a"
-included-patches = "'Custom header for YouTube Music'"
-patcher-args = "--legacy-options options.json"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-
-[YouTube-Extended]
-enabled = true
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-module-prop-name = "youtube-E85"
-included-patches = "'Custom header for YouTube'"
-patcher-args = "--legacy-options options.json"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
 [Twitch]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
@@ -117,7 +89,7 @@ dpi = "120-640dpi"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [TikTok]
-enabled = true
+enabled = false
 build-mode = "both"
 version = "37.0.4"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
@@ -135,7 +107,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
 [YouTube-Custom]
-enabled = true
+enabled = false
 exclusive-patches = true
 module-prop-name = "youtube-E85"
 build-mode = "module"
@@ -152,7 +124,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/e85-apks/apks/com.google.android.youtube"
 
 [Telegram]
-enabled = true
+enabled = false
 build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
@@ -160,7 +132,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
 version = "auto"
 
 [Instagram]
-enabled = true
+enabled = false
 build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
