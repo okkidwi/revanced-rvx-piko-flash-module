@@ -7,6 +7,39 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
+[Music-ReVanced-Extended]
+enabled = false
+app-name = "Music"
+patches-source = "anddea/revanced-patches"
+patches-version = "dev"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "module"
+module-prop-name = "yotube-music-rvx-okkidwidrive"
+version = "8.12.54"
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+included-patches = "'Custom header for YouTube Music' 'Hide overlay filter' 'Hide player overlay filter' 'Spoof client'"
+patcher-args = "--legacy-options options.json"
+
+[YouTube-ReVanced-Extended]
+enabled = true
+app-name = "YouTube"
+patches-source = "anddea/revanced-patches"
+patches-version = "dev"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "module"
+module-prop-name = "youtube-rvx-okkidwidrive"
+version = "20.12.46"
+#arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+included-patches = "'MaterialYou' 'Hide Shorts dimming' 'Custom header for YouTube'"
+patcher-args = "--legacy-options options.json"
+
 [YouTube]
 enabled = true
 build-mode = "both"
