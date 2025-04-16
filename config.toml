@@ -8,7 +8,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [Music-ReVanced-Extended]
-enabled = true
+enabled = false
 app-name = "Music"
 patches-source = "anddea/revanced-patches"
 patches-version = "dev"
@@ -39,6 +39,22 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
 included-patches = "'MaterialYou' 'Hide Shorts dimming' 'Custom header for YouTube'"
 patcher-args = "--legacy-options options.json"
+
+[Piko-ReVanced]
+enabled = true
+app-name = "Twitter"
+patches-source = "crimera/piko"
+patches-version = "v1.3.2"
+patches-source = "crimera/revanced-integrations"
+patches-version = "v1.3.2"
+cli-source = "inotia00/revanced-cli"
+cli-version = "v4.4.1"
+rv-brand = "ReVanced Extended"
+build-mode = "apk"
+version = "10.24.0-alpha.3"
+#arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [YouTube]
 enabled = false
